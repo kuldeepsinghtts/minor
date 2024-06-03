@@ -1,0 +1,93 @@
+body {
+    background-color: lightblue;
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.search-header {
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.search-title {
+    color: white;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.user-options a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.user-options a.signup,
+.user-options a.login {
+    background-color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.user-options a.login {
+    background-color: white;
+    color: black;
+}
+
+.form-container {
+    background-color: cornsilk;
+
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input,
+select,
+button {
+    background-color: floralwhite;
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #333;
+}
